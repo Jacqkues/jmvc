@@ -43,3 +43,9 @@ use jmvc\ProtectedRoute;
 
 $adminDashboard = new ProtectedRoute("/admin",$adminControlleur,"index",$adminGuard);
 ```
+
+* Serve the routes : 
+
+```php
+$router->handleRequest();
+```
